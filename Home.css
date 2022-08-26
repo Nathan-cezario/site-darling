@@ -1,0 +1,73 @@
+header {
+	background: linear-gradient(#A52A2A, #b22222);
+}
+
+body {
+	background: #00CED1;
+	
+}
+
+.caixa {
+	position: relative;
+	width: 940px;
+	margin: 0 auto;
+}
+.texto-inicial {
+	color: #FFFFFF;
+	font-weight: bold; 
+	font-size: 20px;
+	position: absolute;
+	top: 50px;
+	right: 450px;
+}
+
+nav {
+	position: absolute;
+	top: 110px;
+	right: -50px;
+
+}
+
+
+nav li {
+	display: inline;
+	margin: 0 0 0 20px;
+}
+
+nav a {
+	text-transform: uppercase;
+	font-size: 16px;
+	color: #FFFFFF;
+	text-decoration: none;
+	text-shadow: 2px 0 black;
+}
+
+nav a:hover {
+	color: #00CED1;
+	text-decoration: underline;
+}
+
+.logo {
+	width: 200px;
+	height: 200px;
+}
+
+main {
+	text-align: center;
+	padding: 20px 0 0 0;
+}
+
+main h2 {
+	font-weight: bold;
+	margin-bottom: 15px;
+	font-size: 25px;
+}
+
+main p {
+	text-align: center;
+
+}
+
+.texto-inicial {
+	text-shadow: 2px 2px black;
+}
